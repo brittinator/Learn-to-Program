@@ -22,7 +22,7 @@ day = 24 * 60 * 60
 xtra_days = (30-15) + 5
 age = dec_sec + (xtra_days * day) + 9 * (day / 24)
 puts "My age at 900 on May 6th, 2015 in seconds: #{age}."
-puts ''
+puts '  '
 #2nd way to calculate age, roughly
 year = 30
 years_to_seconds = 365 * 24 * 60 * 60
